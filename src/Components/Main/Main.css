@@ -1,0 +1,30 @@
+.container{
+    background-color: #dcd6d6;
+    color: #4b4a4a;
+    padding: 50px 100px;
+    height: 1440px;
+    font-family: "Arial";
+    margin: 0;
+}
+
+h1{
+    font-size: 40px;
+}
+
+.container .input-filed{
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+}
+.container .input-filed input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid darkgray;
+    padding: 8px;
+}
+
+.container .input-filed label{
+    margin: 10px 0 10px 0;
+    font-size: 15px;
+    color: #6e6c6c;
+}

@@ -1,0 +1,25 @@
+ul{
+    margin-left: -50px;
+}
+.task-li{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    background-color: #eee8e8;
+    border-radius: 8px;
+    padding: 0px 20px;
+    color: #6e6c6c;
+    align-items: center;
+    margin: 10px;
+}
+
+.task-title{
+    margin-right: auto;
+    margin-left: 20px;
+}
+
+.task-title.line-through{
+    margin-right: auto;
+    margin-left: 20px;
+    text-decoration: line-through;
+}
